@@ -8,4 +8,3 @@ function updatePlaylist(playlist, artistName, songTitle) {
 
   return Object.assign({}, updatedPlaylist, {[artistName]: songTitle})
 
-Onject.assign({}, updatePlaylist, {artistName: ['Slowdive']}, {songTitle: ['Alison']})
