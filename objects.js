@@ -7,3 +7,5 @@ var playlist = {
 function updatePlaylist(playlist, artistName, songTitle) {
   return updatedPlaylist
 }
+
+Onject.assign({}, updatePlaylist, {artistName: ['Slowdive']}, {songTitle: ['Alison']})
